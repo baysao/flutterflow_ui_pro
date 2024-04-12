@@ -47,7 +47,7 @@ class _FlutterFlowVideoPlayerState extends State<FlutterFlowVideoPlayer> {
   void _initializeVideo() {
     if (widget.videoType == VideoType.network) {
       _controller = VideoPlayerController.networkUrl(
-        Uri.parse(widget.path),
+        Uri.parse(widget.path)
       );
     } else {
       _controller = VideoPlayerController.asset(
@@ -56,12 +56,12 @@ class _FlutterFlowVideoPlayerState extends State<FlutterFlowVideoPlayer> {
     }
 
     _controller.initialize().then((_) {
-      setState(() {
-        if (widget.autoPlay) {
-          _controller.play();
-        }
-        _controller.setLooping(widget.looping);
-      });
+      _controller.setVolume(0);
+      if (widget.autoPlay) {
+        _controller.play();
+      }
+      _controller.setLooping(widget.looping);
+      setState(() {});
     });
   }
 
