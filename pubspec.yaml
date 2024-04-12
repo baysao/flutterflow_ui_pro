@@ -22,7 +22,7 @@ repository: https://github.com/FlutterFlow/flutterflow-ui
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 0.2.0+2
+version: 0.2.1
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
@@ -40,12 +40,12 @@ dependencies:
   flutter_animate: 4.5.0
   flutter_cache_manager: 3.3.1
   flutter_credit_card: 4.0.1
-  flutter_plugin_android_lifecycle: 2.0.17
+  flutter_plugin_android_lifecycle: 2.0.18
   flutter_staggered_grid_view: 0.7.0
   font_awesome_flutter: 10.7.0
-  fl_chart: 0.66.2
+  fl_chart: ^0.67.0
   from_css_color: 2.0.0
-  google_fonts: 6.1.0
+  google_fonts: ^6.2.1
   intl: 0.18.1
   json_path: 0.7.1
   mime_type: 1.0.0
@@ -55,7 +55,7 @@ dependencies:
   rive_common: 0.3.2
   provider: 6.1.2
   smooth_page_indicator: 1.1.0
-  sqflite: 2.3.2
+  sqflite: ^2.3.3
   swipeable_card_stack: 0.0.5
   timeago: 3.6.1
   table_calendar: 3.0.9
@@ -64,7 +64,8 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.0
+  cupertino_icons: ^1.0.6
+  video_player: ^2.8.6
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
