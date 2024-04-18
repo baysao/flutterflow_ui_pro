@@ -20,6 +20,7 @@ export 'flutter_flow_toggle_icon.dart';
 export 'flutter_flow_util.dart';
 export 'flutter_flow_video_player.dart';
 export 'flutter_flow_widgets.dart';
+export 'flutter_flow_youtube_player.dart';
 export 'form_field_controller.dart';
 export 'uploaded_file.dart';
 export 'internationalization.dart';
