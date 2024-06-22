@@ -46,13 +46,13 @@ class FlutterFlowRiveController extends SimpleAnimation {
 
     /// Reset on button press
     if (reactivate) {
-      if (endOfAnimation(instance)) {
+      if (endOfAnimation(instance as LinearAnimationInstance?)) {
         instance?.time = 0;
       }
       reactivate = false;
     }
 
-    if (instance == null || endOfAnimation(instance)) {
+    if (instance == null || endOfAnimation(instance as LinearAnimationInstance?)) {
       isActive = false;
     }
 
