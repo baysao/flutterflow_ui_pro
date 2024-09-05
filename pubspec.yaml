@@ -22,7 +22,7 @@ repository: https://github.com/FlutterFlow/flutterflow-ui
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 0.2.1
+version: 0.4.0
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
@@ -32,41 +32,41 @@ dependencies:
     sdk: flutter
   auto_size_text: 3.0.0
   barcode_widget: 2.0.4
-  cached_network_image: 3.3.1
-  carousel_slider: 4.2.1
-  collection: ^1.18.0
+  cached_network_image: ^3.4.1
+  carousel_slider: ^5.0.0
+  collection: ^1.19.0
   emoji_flag_converter: 1.1.0
   equatable: 2.0.5
   flutter_animate: 4.5.0
-  flutter_cache_manager: ^3.3.2
+  flutter_cache_manager: ^3.4.1
   flutter_credit_card: 4.0.1
-  flutter_plugin_android_lifecycle: ^2.0.20
+  flutter_plugin_android_lifecycle: ^2.0.22
   flutter_staggered_grid_view: 0.7.0
   font_awesome_flutter: 10.7.0
-  fl_chart: ^0.68.0
+  fl_chart: ^0.69.0
   from_css_color: 2.0.0
   google_fonts: ^6.2.1
   intl: ^0.19.0
-  json_path: ^0.7.2
-  mime_type: 1.0.0
+  json_path: ^0.7.4
+  mime_type: ^1.0.1
   page_transition: 2.1.0
   percent_indicator: 4.2.3
-  rive: ^0.13.8
-  rive_common: ^0.4.9
+  rive: ^0.13.13
+  rive_common: ^0.4.11
   provider: 6.1.2
-  smooth_page_indicator: 1.1.0
+  smooth_page_indicator: ^1.2.0+3
   sqflite: ^2.3.3+1
   swipeable_card_stack: 0.0.5
-  timeago: 3.6.1
+  timeago: ^3.7.0
   table_calendar: ^3.1.2
-  video_player: ^2.8.7
-  video_player_web: ^2.3.1
+  video_player: ^2.9.1
+  video_player_web: ^2.3.2
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  youtube_player_flutter: ^9.0.1
+  youtube_player_flutter: ^9.0.3
 
 
 # For information on the generic Dart part of this file, see the

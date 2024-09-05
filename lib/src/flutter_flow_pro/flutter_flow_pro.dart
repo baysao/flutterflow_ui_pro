@@ -1,4 +1,4 @@
-library flutterflow_ui;
+library flutterflow_ui_pro;
 
 export 'flutter_flow_animations.dart';
 export 'flutter_flow_button_tabbar.dart';
