@@ -1,3 +1,6 @@
+<img src="https://skillicons.dev/icons?i=flutter,dart" />
+<br>
+
 # flutterflow_ui_pro
 
 `flutterflow_ui_pro` simplifies the process of adding FlutterFlow-generated UI code to your Flutter projects. It streamlines integration, saving you time and effort in the UI development for your Flutter app.
@@ -31,10 +34,10 @@ In your imports, you will see a bunch of `flutter_flow/flutter_flow...` imports 
 
 Remove such imports
 ```dart
-import '/flutter_flow/flutter_flow_animations.dart';
-import '/flutter_flow/flutter_flow_icon_button.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '/flutter_flow_pro/flutter_flow_animations.dart';
+import '/flutter_flow_pro/flutter_flow_icon_button.dart';
+import '/flutter_flow_pro/flutter_flow_theme.dart';
+import '/flutter_flow_pro/flutter_flow_util.dart';
 ```
 
 And replace it with the package import.
