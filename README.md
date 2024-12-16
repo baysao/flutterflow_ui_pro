@@ -24,7 +24,10 @@ Now in your Flutter project, open your `pubspec.yaml` file and add `flutterflow_
 
 ```yaml
 dependencies:
-  flutterflow_ui_pro: <latest_version>
+  flutterflow_ui_pro:
+    git:
+      url: https://github.com/joeshwoa/flutterflow_ui_pro
+      ref: main   # Optional: specify the branch, commit, or tag if needed
 ```
 Remember to run `flutter pub get`
 

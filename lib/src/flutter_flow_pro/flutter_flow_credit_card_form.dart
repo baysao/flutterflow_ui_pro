@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_credit_card/flutter_credit_card.dart';
+import 'package:flutter_credit_card_plus/flutter_credit_card_plus.dart';
 import 'package:extended_masked_text/extended_masked_text.dart';
 
-export 'package:flutter_credit_card/flutter_credit_card.dart'
+export 'package:flutter_credit_card_plus/flutter_credit_card_plus.dart'
     show CreditCardModel;
 
 /// Modified from https://pub.dev/packages/flutter_credit_card (see license below)
