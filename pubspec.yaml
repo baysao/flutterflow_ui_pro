@@ -22,7 +22,7 @@ repository: https://github.com/FlutterFlow/flutterflow-ui
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.8.0
+version: 1.9.0
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
@@ -43,7 +43,7 @@ dependencies:
   flutter_credit_card_plus:
     git:
       url: https://github.com/joeshwoa/flutter_credit_card_plus
-      ref: main   # Optional: specify the branch, commit, or tag if needed
+      commit: ^1.0.0   # Optional: specify the branch, commit, or tag if needed
   flutter_plugin_android_lifecycle: ^2.0.23
   flutter_staggered_grid_view: 0.7.0
   font_awesome_flutter: ^10.8.0
