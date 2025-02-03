@@ -170,13 +170,6 @@
             </list>
           </value>
         </entry>
-        <entry key="flutter_credit_card_pro">
-          <value>
-            <list>
-              <option value="$USER_HOME$/AppData/Local/Pub/Cache/git/flutter_credit_card_pro-38ec7c4622fff14c5caf43b9833918daf58c28f5//lib" />
-            </list>
-          </value>
-        </entry>
         <entry key="flutter_inappwebview">
           <value>
             <list>
@@ -691,7 +684,6 @@
       </option>
     </properties>
     <CLASSES>
-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/git/flutter_credit_card_pro-38ec7c4622fff14c5caf43b9833918daf58c28f5//lib" />
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/async-2.11.0/lib" />
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/auto_size_text-3.0.0/lib" />
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/barcode-2.2.8/lib" />
