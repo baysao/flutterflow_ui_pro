@@ -3,11 +3,11 @@ import 'package:rive/rive.dart';
 
 class FlutterFlowRiveController extends SimpleAnimation {
   FlutterFlowRiveController(
-    String animationName, {
-    double mix = 1,
-    bool autoplay = true,
+    super.animationName, {
+    super.mix,
+    super.autoplay,
     this.shouldLoop = false,
-  }) : super(animationName, mix: mix, autoplay: autoplay);
+  });
 
   bool shouldLoop;
   final _reactivate = ValueNotifier<bool>(false);
@@ -46,13 +46,13 @@ class FlutterFlowRiveController extends SimpleAnimation {
 
     /// Reset on button press
     if (reactivate) {
-      if (endOfAnimation(instance as LinearAnimationInstance?)) {
+      if (endOfAnimation(instance)) {
         instance?.time = 0;
       }
       reactivate = false;
     }
 
-    if (instance == null || endOfAnimation(instance as LinearAnimationInstance?)) {
+    if (instance == null || endOfAnimation(instance)) {
       isActive = false;
     }
 
