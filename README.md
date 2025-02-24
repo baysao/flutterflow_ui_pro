@@ -37,10 +37,10 @@ In your imports, you will see a bunch of `flutter_flow/flutter_flow...` imports 
 
 Remove such imports
 ```dart
-import '/flutter_flow_pro/flutter_flow_animations.dart';
-import '/flutter_flow_pro/flutter_flow_icon_button.dart';
-import '/flutter_flow_pro/flutter_flow_theme.dart';
-import '/flutter_flow_pro/flutter_flow_util.dart';
+import '/flutter_flow/flutter_flow_animations.dart';
+import '/flutter_flow/flutter_flow_icon_button.dart';
+import '/flutter_flow/flutter_flow_theme.dart';
+import '/flutter_flow/flutter_flow_util.dart';
 ```
 
 And replace it with the package import.
