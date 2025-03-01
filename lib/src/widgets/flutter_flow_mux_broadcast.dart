@@ -45,7 +45,7 @@ class FlutterFlowMuxBroadcast extends StatefulWidget {
   final BorderRadius borderRadius;
 
   /// The controller for the live stream.
-  final LiveStreamController? controller;
+  final ApiVideoLiveStreamController ? controller;
 
   /// The configuration for the video stream.
   final VideoConfig videoConfig;
@@ -143,7 +143,7 @@ class _FlutterFlowMuxBroadcastState extends State<FlutterFlowMuxBroadcast>
     return widget.isCameraInitialized
         ? ClipRRect(
             borderRadius: widget.borderRadius,
-            child: CameraPreview(
+            child: ApiVideoCameraPreview(
               controller: widget.controller!,
               child: Padding(
                 padding: const EdgeInsets.only(

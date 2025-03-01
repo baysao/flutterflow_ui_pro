@@ -27,7 +27,7 @@ dependencies:
 
   aligned_dialog: any
   aligned_tooltip: any
-  apivideo_live_stream: 1.0.7
+  apivideo_live_stream: any
   auto_size_text: any
   barcode_widget: any
   cached_network_image: any
@@ -70,7 +70,7 @@ dependencies:
   plugin_platform_interface: any
   pointer_interceptor: any
   provider: any
-  rive: 0.12.2
+  rive: any
   shared_preferences: any
   shared_preferences_android: any
   shared_preferences_foundation: any
