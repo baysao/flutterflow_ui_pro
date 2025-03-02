@@ -635,6 +635,16 @@ import 'package:google_fonts/google_fonts.dart';
 const kThemeModeKey = '__theme_mode__';
 
 abstract class FlutterFlowTheme {
+  static Future initialize() async =>
+      _prefs = await SharedPreferences.getInstance();
+  static ThemeMode get themeMode {
+    final darkMode = _prefs?.getBool(kThemeModeKey);
+    return darkMode == null
+        ? ThemeMode.system
+        : darkMode
+            ? ThemeMode.dark
+            : ThemeMode.light;
+  }
   static FlutterFlowTheme of(BuildContext context) {
     return Theme.of(context).brightness == Brightness.dark
         ? DarkModeTheme()
